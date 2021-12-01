@@ -16,10 +16,10 @@ class Bio extends SoftwareDeveloper {
 
 
 class Skills extends SoftwareDeveloper {
-  languages     = ['Java', 'Python', 'JavaScript | TypeScript'];
-  databases     = ['MySQL', 'MongoDB', 'Redis', 'Firestore'];
-  tools         = ['Docker', 'Kubernetes', 'VS Code', 'Git'];
-  os            = ['Mac', 'Linux', 'Windows'];
+  languages   = ['Java', 'Python', 'JavaScript | TypeScript'];
+  databases   = ['MySQL', 'MongoDB', 'Redis', 'Firestore'];
+  tools       = ['Docker', 'Kubernetes', 'VS Code', 'Git'];
+  os          = ['Mac', 'Linux', 'Windows'];
 }
 
 
