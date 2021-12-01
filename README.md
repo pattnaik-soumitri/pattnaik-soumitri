@@ -1,7 +1,8 @@
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/thompsonemerson/thompsonemerson/raw/master/cover-thompson.png" />
 </p>
-
+ -->
+ 
 ```js
 import SoftwareDeveloper from 'HelloWorld';
 
@@ -17,18 +18,18 @@ class Bio extends SoftwareDeveloper {
 class Skills extends SoftwareDeveloper {
   languages     = ['Java', 'Python', 'JavaScript | TypeScript'];
   databases     = ['MySQL', 'MongoDB', 'Redis', 'Firestore'];
-  frameworks    = [ 
-                     ['Spring Boot', 'Node/NestJS', 'Apache Wicket'], // Web/backend
-                     ['ElectronJS', 'TKInter'], // Desktop
-                     ['Apache Beam', 'Apache Beam'], // Data processing
-                     ['Angular', 'Vue'], // Frontend
-                     ['Bootstrap', 'Bulma', 'MDL'] // CSS,
-                     ['Firebase']
-                   ];
- tools           = ['Docker', 'Kubernetes', 'VS Code', 'Git'];
- os              = ['Mac', 'Linux', 'Windows'];
+  tools         = ['Docker', 'Kubernetes', 'VS Code', 'Git'];
+  os            = ['Mac', 'Linux', 'Windows'];
 }
 
+
+class FrameworkSkills extends Skills {
+  backend     = ['Spring Boot', 'Node/NestJS', 'Apache Wicket'];
+  dataProc    = ['Apache Beam', 'Apache Airflow'];
+  desktop     = ['ElectronJS', 'TKInter']; // Novice
+  frontend    = ['Angular', 'Vue'];
+  css         = ['Bootstrap', 'Bulma', 'MDL'];
+}
 
 class CloudSkills extends Skills {
   gcp      = ['GKE', 'Dataflow', 'Compute Engine', 'Cloud Function', 'Cloud Pub/Sub', 'Cloud Composer', 'Cloud Storage', 'CloudSQL', 'Cloud Memorystore', 'BigQuery', 'Container Registry'];
@@ -39,7 +40,7 @@ class CloudSkills extends Skills {
 
 ```
 
-Last Edited on: 30/11/2021
+Last Edited on: 01/12/2021
 
 <!---
 pattnaik-soumitri/pattnaik-soumitri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
