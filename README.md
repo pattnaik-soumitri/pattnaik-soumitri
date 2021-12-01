@@ -31,6 +31,7 @@ class FrameworkSkills extends Skills {
   css         = ['Bootstrap', 'Bulma', 'MDL'];
 }
 
+
 class CloudSkills extends Skills {
   gcp        = ['GKE', 'Dataflow', 'Compute Engine', 'Cloud Function', 'Cloud Pub/Sub', 'Cloud Composer', 'Cloud Storage', 'CloudSQL', 'Cloud Memorystore', 'BigQuery', 'Container Registry'];
   aws        = ['EC2', 'Lambda', 'S3', 'Aurora', 'Redshift', 'API Gateway'];
