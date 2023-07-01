@@ -9,9 +9,9 @@ import SoftwareDeveloper from 'HelloWorld';
 
 class Bio extends SoftwareDeveloper {
   name        = 'Soumitri Pattnaik';
-  experience  = '8+ Years';
+  experience  = '9+ Years';
   title       = 'Prinicipal Software Engineer';
-  company     = 'Johnson Controls | Sensormatic Solutions';
+  company     = 'Sensormatic Solutions | Johnson Controls';
   location    = 'Banglore, India';
 }
 
@@ -36,12 +36,16 @@ class FrameworkSkills extends Skills {
 class CloudSkills extends Skills {
   gcp        = ['GKE', 'Dataflow', 'Compute Engine', 'Cloud Function', 'Cloud Pub/Sub', 'Cloud Composer', 'Cloud Storage', 'CloudSQL', 'Cloud Memorystore', 'BigQuery', 'Container Registry'];
   aws        = ['EC2', 'Lambda', 'S3', 'Aurora', 'Redshift', 'API Gateway'];
-  firebase   = ['Firestore', 'Authentication', 'Functions', 'Storage', 'Hosting'];             
+  baas       = {
+    firebase: ['Firestore', 'Authentication', 'Functions', 'Storage', 'Hosting'],
+    pocketbase
+  }
+
 }
 
 ```
 
-Last Edited on: 01/12/2021
+Last Edited on: 01/07/2022
 
 <!---
 pattnaik-soumitri/pattnaik-soumitri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
