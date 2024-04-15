@@ -4,19 +4,19 @@
  -->
  
 ```js
-import SoftwareDeveloper from 'HelloWorld';
+import SoftwareDeveloper👨‍💻 from 'HelloWorld🌏';
 
 
-class Bio extends SoftwareDeveloper {
-  name        = 'Soumitri Pattnaik';
-  experience  = '10+ Years';
+class Bio extends SoftwareDeveloper👨‍💻 {
+  name        = 'Soumitri Pattnaik😎';
+  experience  = '10+ Years 💪';
   title       = 'Prinicipal Software Engineer';
   company     = 'Sensormatic Solutions | Johnson Controls';
   location    = 'Banglore, India';
 }
 
 
-class Skills extends SoftwareDeveloper {
+class Skills extends SoftwareDeveloper👨‍💻 {
   languages   = ['Java', 'Python', 'JavaScript', 'TypeScript'];
   databases   = ['MySQL', 'MongoDB', 'Redis', 'Firestore', 'CloudSQL', 'Cloud Spanner', 'BigQuery', 'Cloud Memorystore'];
   tools       = ['Docker', 'Kubernetes', 'VS Code', 'Git'];
@@ -45,7 +45,7 @@ class CloudSkills extends Skills {
 
 ```
 
-Last Edited on: 01/07/2022
+Last Edited on: 15/04/2024
 
 <!---
 pattnaik-soumitri/pattnaik-soumitri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
