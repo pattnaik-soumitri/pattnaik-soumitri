@@ -17,7 +17,7 @@ class Bio extends SoftwareDeveloper👨‍💻 {
 
 
 class Skills extends SoftwareDeveloper👨‍💻 {
-  languages   = ['Java', 'Python', 'JavaScript', 'TypeScript'];
+  languages   = ['Java', 'Python', 'JavaScript', 'TypeScript', 'Go'];
   databases   = ['MySQL', 'MongoDB', 'Redis', 'Firestore', 'CloudSQL', 'Cloud Spanner', 'BigQuery', 'Cloud Memorystore'];
   tools       = ['Docker', 'Kubernetes', 'VS Code', 'Git'];
   os          = ['Mac', 'Linux', 'Windows'];
@@ -27,18 +27,19 @@ class Skills extends SoftwareDeveloper👨‍💻 {
 class FrameworkSkills extends Skills {
   backend     = ['Spring Boot', 'Node/NestJS', 'Apache Wicket'];
   dataProc    = ['Apache Beam', 'Apache Airflow'];
-  desktop     = ['ElectronJS', 'TKInter']; // Novice
+  desktop     = ['ElectronJS', 'TKInter', 'Go Wails'];
   frontend    = ['Angular', 'Vue'];
-  css         = ['Bootstrap', 'Bulma', 'MDL', 'PicoCSS'];
+  css         = ['Bootstrap', 'Bulma', 'MDL', 'PicoCSS', 'Tailwind'];
 }
 
 
 class CloudSkills extends Skills {
-  gcp        = ['GKE', 'Dataflow', 'Compute Engine', 'Cloud Function', 'Cloud Pub/Sub', 'Cloud Composer', 'Cloud Storage', 'CloudSQL', 'Cloud Spanner', 'Cloud Memorystore', 'BigQuery', 'Container Registry'];
+  gcp        = ['GKE', 'Dataflow', 'Compute Engine', 'Cloud Functions', 'Cloud Run', 'Pub/Sub', 'Composer', 'Cloud Storage', 'CloudSQL', 'Spanner', 'Memorystore', 'BigQuery', 'Container Registry', 'Artifact Registry'];
   aws        = ['EC2', 'Lambda', 'S3', 'Aurora', 'Redshift', 'API Gateway'];
   baas       = {
     firebase: ['Firestore', 'Authentication', 'Functions', 'Storage', 'Hosting'],
-    pocketbase
+    pocketbase,
+    supabase
   }
 
 }
