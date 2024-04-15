@@ -4,19 +4,19 @@
  -->
  
 ```js
-import SoftwareDeveloper👨‍💻 from 'HelloWorld🌏';
+import SoftwareDeveloper from 'HelloWorld';
 
 
-class Bio extends SoftwareDeveloper👨‍💻 {
+class Bio extends SoftwareDeveloper {
   name        = 'Soumitri Pattnaik😎';
   experience  = '10+ Years 💪';
-  title       = 'Prinicipal Software Engineer';
-  company     = 'Sensormatic Solutions | Johnson Controls';
-  location    = 'Banglore, India';
+  title       = 'Prinicipal Software Engineer 👨‍💻';
+  company     = 'Sensormatic Solutions | Johnson Controls 🏢';
+  location    = 'Banglore, India 🌏';
 }
 
 
-class Skills extends SoftwareDeveloper👨‍💻 {
+class Skills extends SoftwareDeveloper {
   languages   = ['Java', 'Python', 'JavaScript', 'TypeScript', 'Go'];
   databases   = ['MySQL', 'MongoDB', 'Redis', 'Firestore', 'CloudSQL', 'Cloud Spanner', 'BigQuery', 'Cloud Memorystore'];
   tools       = ['Docker', 'Kubernetes', 'VS Code', 'Git'];
