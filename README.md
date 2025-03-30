@@ -9,7 +9,7 @@ import SoftwareDeveloper from 'HelloWorld';
 
 class Bio extends SoftwareDeveloper {
   name        = 'Soumitri Pattnaik😎';
-  experience  = '10+ Years 💪';
+  experience  = '11+ Years 💪';
   title       = 'Prinicipal Software Engineer 👨‍💻';
   company     = 'Sensormatic Solutions | Johnson Controls 🏢';
   location    = 'Banglore, India 🌏';
